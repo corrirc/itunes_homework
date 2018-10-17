@@ -1,7 +1,7 @@
 import React from 'react';
 import MusicList from '../components/MusicList.js';
 
-import MusicContainer extends React.Component {
+class MusicContainer extends React.Component {
   constructor(props){
     super(props)
     this.state ={
@@ -27,3 +27,5 @@ import MusicContainer extends React.Component {
   }
 
 }
+
+export default MusicContainer;
